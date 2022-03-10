@@ -5,11 +5,14 @@ public class PostBean {
 	String name;
 	String title;
 	String content;
+	String createDate;
 	
-	public PostBean(String name, String title, String content) {
+	
+	public PostBean(String name, String title, String content, String createDate) {
 		this.name = name;
 		this.title = title;
 		this.content = content;
+		this.createDate = createDate;
 
 	}
 	
@@ -25,6 +28,10 @@ public class PostBean {
         this.content = content;
     }
     
+    public void setcreateDate(String createDate) {
+    	this.createDate = createDate;
+    }
+    
     public String getName() {
     	return this.name;
     }
@@ -35,5 +42,9 @@ public class PostBean {
 	
     public String getContent() {
         return this.content;
+    }
+    
+    public String getCreateDate() {
+    	return this.createDate;
     }
 }
