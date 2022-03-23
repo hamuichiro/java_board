@@ -1,0 +1,51 @@
+body {
+	background-color: #fafaf5;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.post {
+	text-align: center;
+}
+
+
+.post-name {
+	color: #5a4923;
+}
+
+.post-title {
+	color: #c00000;
+
+}
+
+.post-content {
+	width: 100%;
+	padding: 4;
+}
+
+.title {
+	border: 5px solid brack;
+	background-color: #ECF0EC;
+}
+
+.body {
+	border: 5px solid brack;
+	background-color: white;
+}
+
+.edit {
+	 width: 50;
+	 text-align: right;
+}
+
+.delete {
+	width: 50;
+	text-align: right;
+}
